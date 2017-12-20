@@ -5,4 +5,7 @@
         select * from taobao;
     </select>
 
+    <select id="findByPage" resultType="com.yjs.example.springbootmybatis.Taobao">
+        select * from taobao
+    </select>
 </mapper>

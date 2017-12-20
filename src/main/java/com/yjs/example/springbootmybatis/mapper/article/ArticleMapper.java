@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by yjs on 2017/12/18.
  */
-//@Component
+@Component
 //@Mapper
 public interface ArticleMapper {
 
