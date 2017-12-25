@@ -17,7 +17,7 @@ public class Article {
 
     private String content;
 
-    //private Category category;
+    private Category category;
 
 
     private String summary;
@@ -51,13 +51,13 @@ public class Article {
         this.content = content;
     }
 
-//    public Category getCategory() {
-//        return category;
-//    }
-//
-//    public void setCategory(Category category) {
-//        this.category = category;
-//    }
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
 
     public String getSummary() {
         return summary;
